@@ -1,0 +1,6 @@
+.content {
+  width: 100%;
+  background-color: #ffffff;
+  overflow: hidden;
+  min-height: 85vh;
+}

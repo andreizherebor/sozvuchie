@@ -1,0 +1,10 @@
+.header__links {
+  display: flex;
+  gap: 2.5rem;
+  align-items: end;
+  list-style: none;
+
+}
+.header__links:last-of-type {
+  margin-right: 75px;
+}

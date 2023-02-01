@@ -1,0 +1,28 @@
+.themes__background {
+  max-width: 100%;
+  min-height: 324px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  background-image: url(../../../images/themes/Rectangle\ 8.png);
+  z-index: 1;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.themes__background:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .3;
+  transition: opacity .2s linear;
+}
+
+.themes__background:hover:after {
+  opacity: .8;
+}

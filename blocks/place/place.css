@@ -1,0 +1,8 @@
+.place {
+  max-width: 1440px;
+  display: flex;
+  margin: 80px auto 150px;
+  gap: 30px;
+}
+
+
