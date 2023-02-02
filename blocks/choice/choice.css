@@ -1,7 +1,5 @@
 .choice {
-  max-width: 1440px;
 display: flex;
 margin: 0px auto 80px;
 flex-direction: column;
-
 }

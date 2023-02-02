@@ -1,6 +1,7 @@
 .content {
-  width: 100%;
+  width: 1290px;
   background-color: #ffffff;
   overflow: hidden;
   min-height: 85vh;
+  margin: 0 auto;
 }

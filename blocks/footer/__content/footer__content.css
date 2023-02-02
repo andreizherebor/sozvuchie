@@ -1,0 +1,9 @@
+.footer__content {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  margin: 0 auto;
+  padding: 1.25rem 0;
+}

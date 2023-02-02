@@ -1,0 +1,13 @@
+.gallery__cards {
+  max-width: 1290px;
+  display: grid;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 40px 30px;
+  margin: 60px auto 0;
+}
+.gallery__cards:nth-child(1) {
+  grid-column: 1 / 2;
+  grid-row: 1 / 1;
+}

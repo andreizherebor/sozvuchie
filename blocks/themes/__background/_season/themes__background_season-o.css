@@ -1,0 +1,7 @@
+.themes__background_season-o {
+  background-image: url(../../../../images/themes/осень.png);
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
