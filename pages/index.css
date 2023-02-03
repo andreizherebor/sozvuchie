@@ -54,6 +54,16 @@
 @import url(../blocks/gallery/__background/gallery__background.css);
 @import url(../blocks/gallery/__caption/gallery__caption.css);
 
+@import url(../blocks/contact/contact.css);
+@import url(../blocks/contact/__content/contact__content.css);
+@import url(../blocks/contact/__title/contact__title.css);
+@import url(../blocks/contact/__subtitle/contact__subtitle.css);
+@import url(../blocks/contact/__nav/contact__nav.css);
+@import url(../blocks/contact/__text/contact__text.css);
+@import url(../blocks/contact/__icon/contact__icon.css);
+@import url(../blocks/contact/__tel/contact__tel.css);
+@import url(../blocks/contact/__map/contact__map.css);
+
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__content/footer__content.css);
