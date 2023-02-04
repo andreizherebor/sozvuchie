@@ -28,7 +28,9 @@
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__text/place__text.css);
 @import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__image/_themes/place__image_themes.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__paragraph/_price/place__paragraph_price.css);
 
 @import url(../blocks/choice/choice.css);
 @import url(../blocks/choice/__title/choice__title.css);
@@ -47,6 +49,12 @@
 @import url(../blocks/themes/__background/_season/themes__background_season-o.css);
 @import url(../blocks/themes/__background/_season/themes__background_season-z.css);
 @import url(../blocks/themes/__background/_season/themes__background_season-v.css);
+@import url(../blocks/themes/__background/_theme/themes__background_theme1.css);
+@import url(../blocks/themes/__background/_theme/themes__background_theme2.css);
+@import url(../blocks/themes/__background/_theme/themes__background_theme3.css);
+@import url(../blocks/themes/__background/_theme/themes__background_theme4.css);
+@import url(../blocks/themes/__background/_theme/themes__background_theme5.css);
+@import url(../blocks/themes/__background/_theme/themes__background_theme6.css);
 
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__title/gallery__title.css);
