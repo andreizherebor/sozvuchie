@@ -1,0 +1,10 @@
+.nav__links {
+  display: flex;
+  gap: 0.8rem;
+  align-items: end;
+  list-style: none;
+margin-top: 20px;
+}
+.nav__links:last-of-type {
+  margin-right: 75px;
+}
