@@ -1,0 +1,7 @@
+.gallery__background_footage_foto {
+  background-image: url(../../../../images/gallery/photo_plot.jpg);
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
