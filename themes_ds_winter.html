@@ -45,29 +45,13 @@
             остаются с нами навсегда.</p>
             <p class="place__paragraph place__paragraph_price">Комплект фотографий из 3 шт <br> 550 рублей</p>
         </div>
-        <img class="place__image place__image_themes" src="./images/Zima/Ангелы.jpg" alt="Куршская коса (фото)">
+        <img class="place__image place__image_themes" src="./images/winter/s.jpg" alt="(фото)">
       </section>
-      <section class="themes">
-        <div class="themes__cards">
-          <a class="themes__background themes__background_theme1" href="#" target="_self">
-            <h3 class="themes__caption">Зимний сон</h3>
-          </a>
-          <a class="themes__background themes__background_theme2" href="#" target="_self">
-            <h3 class="themes__caption">В гостях у гномов</h3>
-          </a>
-          <a class="themes__background themes__background_theme3" href="#" target="_self">
-            <h3 class="themes__caption">В ожидании рождества</h3>
-          </a>
-          <a class="themes__background themes__background_theme4" href="#" target="_self">
-            <h3 class="themes__caption">Зимнее счастье</h3>
-          </a>
-          <a class="themes__background themes__background_theme5" href="#" target="_self">
-            <h3 class="themes__caption">12 месяцев</h3>
-          </a>
-          <a class="themes__background themes__background_theme6" href="#" target="_self">
-            <h3 class="themes__caption">Морозко</h3>
-          </a>
-        </div>
+
+      <section class="elements" aria-label="Секция с фотокарточками">
+        <ul class="elements__cards">
+
+        </ul>
       </section>
     </main>
     <footer class="footer">
@@ -84,6 +68,21 @@
       </div>
     </footer>
   </div>
+  <div class="popup popup_photos">
+    <div class="popup__container">
+      <img class="popup__image" src="#" alt="#">
+        <h2 class="popup__figcaption"></h2>
+      <button class="popup__close-button" type="button" title="Закрыть"></button>
+    </div>
+  </div>
+  <template class="card_template">
+    <li class="element">
+      <img class="element__image" src="." alt="">
+        <h2 class="element__title"></h2>
+  </li>
+  </template>
+  <script src="./scripts/initialWinter.js"></script>
+  <script src="./scripts/index.js"></script>
 </body>
 
 </html>

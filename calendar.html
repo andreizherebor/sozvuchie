@@ -45,41 +45,12 @@
             остаются с нами навсегда.</p>
             <p class="place__paragraph place__paragraph_price">750 рублей</p>
         </div>
-        <img class="place__image place__image_themes" src="./images/calendar/11-min.png" alt="Куршская коса (фото)">
+        <img class="place__image place__image_themes" src="./images/winter/c.jpg" alt="(фото)">
       </section>
-      <section class="themes">
-        <div class="themes__cards">
-          <a class="themes__background themes__background_calendar1" href="#" target="_self">
-            <h3 class="themes__caption"></h3>
-          </a>
-          <a class="themes__background themes__background_calendar2" href="#" target="_self">
-            <h3 class="themes__caption"></h3>
-          </a>
-          <a class="themes__background themes__background_calendar3" href="#" target="_self">
-            <h3 class="themes__caption"></h3>
-          </a>
-          <a class="themes__background themes__background_calendar4" href="#" target="_self">
-            <h3 class="themes__caption"></h3>
-          </a>
-          <a class="themes__background themes__background_calendar5" href="#" target="_self">
-            <h3 class="themes__caption"></h3>
-          </a>
-          <a class="themes__background themes__background_calendar6" href="#" target="_self">
-            <h3 class="themes__caption"></h3>
-          </a>
-          <a class="themes__background themes__background_calendar7" href="#" target="_self">
-            <h3 class="themes__caption"></h3>
-          </a>
-          <a class="themes__background themes__background_calendar8" href="#" target="_self">
-            <h3 class="themes__caption"></h3>
-          </a>
-          <a class="themes__background themes__background_calendar9" href="#" target="_self">
-            <h3 class="themes__caption"></h3>
-          </a>
-          <a class="themes__background themes__background_calendar10" href="#" target="_self">
-            <h3 class="themes__caption"></h3>
-          </a>
-        </div>
+      <section class="elements" aria-label="Секция с фотокарточками">
+        <ul class="elements__cards">
+
+        </ul>
       </section>
     </main>
     <footer class="footer">
@@ -96,6 +67,21 @@
       </div>
     </footer>
   </div>
+  <div class="popup popup_photos">
+    <div class="popup__container">
+      <img class="popup__image" src="#" alt="#">
+        <h2 class="popup__figcaption"></h2>
+      <button class="popup__close-button" type="button" title="Закрыть"></button>
+    </div>
+  </div>
+  <template class="card_template">
+    <li class="element">
+      <img class="element__image" src="." alt="">
+        <h2 class="element__title"></h2>
+  </li>
+  </template>
+  <script src="./scripts/initialCalendar.js"></script>
+  <script src="./scripts/index.js"></script>
 </body>
 
 </html>

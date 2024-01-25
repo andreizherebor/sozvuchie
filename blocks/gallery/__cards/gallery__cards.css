@@ -5,7 +5,7 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 40px 30px;
-  margin: 60px auto 0;
+  margin: 60px auto;
 }
 .gallery__cards:nth-child(1) {
   grid-column: 1 / 2;

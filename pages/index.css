@@ -76,6 +76,13 @@
 @import url(../blocks/gallery/__title/gallery__title.css);
 @import url(../blocks/gallery/__cards/gallery__cards.css);
 @import url(../blocks/gallery/__background/gallery__background.css);
+@import url(../blocks/gallery/__background-seson/gallery__background-seson.css);
+@import url(../blocks/gallery/__background-seson/_footage/gallery__background-seson_footage-aut-o.css);
+@import url(../blocks/gallery/__background-seson/_footage/gallery__background-seson_footage-aut-s.css);
+@import url(../blocks/gallery/__background-seson/_footage/gallery__background-seson_footage-spr-o.css);
+@import url(../blocks/gallery/__background-seson/_footage/gallery__background-seson_footage-spr-s.css);
+@import url(../blocks/gallery/__background-seson/_footage/gallery__background-seson_footage-sum-o.css);
+@import url(../blocks/gallery/__background-seson/_footage/gallery__background-seson_footage-sum-s.css);
 @import url(../blocks/gallery/__caption/gallery__caption.css);
 @import url(../blocks/gallery/__background/_footage/gallery__background_footage_cal.css);
 @import url(../blocks/gallery/__background/_footage/gallery__background_footage_com.css);
@@ -98,3 +105,19 @@
 @import url(../blocks/footer/__item/footer__item.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+@import url(../blocks/elements/elements.css);
+@import url(../blocks/elements/__cards/elements__cards.css);
+
+@import url(../blocks/element/element.css);
+@import url(../blocks/element/__image/element__image.css);
+@import url(../blocks/element/__title/element__title.css);
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__close-button/popup__close-button.css);
+@import url(../blocks/popup/__figcaption/popup__figcaption.css);
+@import url(../blocks/popup/__image/popup__image.css);
+@import url(../blocks/popup/_photos/popup_photos.css);
+@import url(../blocks/popup/__container/popup__container.css);
+
