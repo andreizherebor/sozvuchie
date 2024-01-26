@@ -1,0 +1,9 @@
+const initialCards = [
+  {
+    name: "",
+    link: "",
+  },
+
+];
+
+

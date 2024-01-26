@@ -1,43 +1,42 @@
 const initialCards = [
   {
-    name: "...",
-    link: "https://lh3.google.com/u/0/d/1rzeyASso_t5fJp47fnbxPrkm-pyUyM8H=w2560-h1300-iv1",
+    name: "",
+    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/bb40afce488321c85c5adc6eb3635c3c/1-1-min.jpg",
   },
   {
-    name: "...",
-    link: "https://lh3.google.com/u/0/d/1GjpVXg8GUhSdF3U3NCvLfyKquXjSGviF=w2560-h1300-iv1",
+    name: "",
+    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/bb40afce488321c85c5adc6eb3635c3c/10-1-min.jpg",
   },
   {
-    name: "...",
-    link: "https://lh3.google.com/u/0/d/1nnB-wC_fF-yr9lW_VzORWTTuxQ1cg60N=w2560-h1300-iv1",
+    name: "",
+    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/bb40afce488321c85c5adc6eb3635c3c/11-min.jpg",
   },
   {
-    name: "...",
-    link: "https://lh3.google.com/u/0/d/1BM5uQpIDIfdmqyht7oCBPfd1QemwMfn3=w2560-h1300-iv1",
+    name: "",
+    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/bb40afce488321c85c5adc6eb3635c3c/12-min.jpg",
   },
   {
-    name: "...",
-    link: "https://lh3.google.com/u/0/d/1zhIbeyWZnl171tIpgEpca1zfTZdqOG3F=w2560-h1300-iv1",
+    name: "",
+    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/bb40afce488321c85c5adc6eb3635c3c/2-2-min.JPG",
   },
   {
-    name: "...",
-    link: "https://lh3.google.com/u/0/d/1JwLqZFotiJ-5HfF5t0zUynk5R-ruL2k0=w2560-h1300-iv1",
+    name: "",
+    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/bb40afce488321c85c5adc6eb3635c3c/3-2-min.jpg",
   },
   {
-    name: "...",
-    link: "https://lh3.google.com/u/0/d/1GHgUlaPzUzIuNqOE55z-uAYA7oLU8Z6J=w2560-h1300-iv1",
+    name: "",
+    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/bb40afce488321c85c5adc6eb3635c3c/4-1-min.jpg",
   },
   {
-    name: "...",
-    link: "https://lh3.google.com/u/0/d/10mjXlBkgOhltn4CMHhrYw85EulagaXBJ=w2560-h1300-iv1",
+    name: "",
+    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/bb40afce488321c85c5adc6eb3635c3c/5-1-min.jpg",
   },
   {
-    name: "...",
-    link: "https://lh3.google.com/u/0/d/187cAX4hq_vu2W-Hp6Yk_RVf_dJY_WHWI=w2560-h1300-iv1",
+    name: "",
+    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/bb40afce488321c85c5adc6eb3635c3c/6-1-min.jpg",
   },
   {
-    name: "...",
-    link: "https://lh3.google.com/u/0/d/126YxwWx_Bzud8kLTJ1fmzDd_ipwuG9rf=w2560-h1300-iv1",
+    name: "",
+    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/bb40afce488321c85c5adc6eb3635c3c/8-2-min.jpg",
   },
-
 ];

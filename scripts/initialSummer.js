@@ -1,32 +1,45 @@
 const initialCards = [
   {
-    name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/80130111d1e5a51d91e656f432dee4ca/Вишня-min.jpg",
+    name: "Летний день",
+    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/55a70d3150d3b40bb5d294af98062051/Вишня-min.jpg",
   },
   {
-    name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/80130111d1e5a51d91e656f432dee4ca/Гусь-min.jpg",
+    name: "Домик в деревне",
+    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/55a70d3150d3b40bb5d294af98062051/Гусь-min.jpg",
   },
   {
-    name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/80130111d1e5a51d91e656f432dee4ca/Доставка%20роз-min.jpg",
+    name: "Доставка роз",
+    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/55a70d3150d3b40bb5d294af98062051/Доставка%20роз-min.jpg",
   },
   {
-    name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/80130111d1e5a51d91e656f432dee4ca/Земляника-min.jpg",
+    name: "Краски лета",
+    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/55a70d3150d3b40bb5d294af98062051/Земляника-min.jpg",
   },
   {
-    name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/80130111d1e5a51d91e656f432dee4ca/Молочник-min.jpg",
+    name: "По дороге с облаками",
+    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/55a70d3150d3b40bb5d294af98062051/Молочник-min.jpg",
   },
   {
-    name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/80130111d1e5a51d91e656f432dee4ca/арбузы-min.jpg",
+    name: "Арбузная история",
+    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/55a70d3150d3b40bb5d294af98062051/арбузы-min.jpg",
   },
   {
-    name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/80130111d1e5a51d91e656f432dee4ca/гриб-min.jpg",
+    name: "Золотая рыбка",
+    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/55a70d3150d3b40bb5d294af98062051/гриб-min.jpg",
   },
+  {
+    name: "Гусли",
+    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/55a70d3150d3b40bb5d294af98062051/гусли-min.jpg",
+  },
+  {
+    name: "Лимонад",
+    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/55a70d3150d3b40bb5d294af98062051/лимонад-min.jpg",
+  },
+  {
+    name: "Лодочка",
+    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/55a70d3150d3b40bb5d294af98062051/лодочка-min.jpg",
+  },
+
 ];
 
 
