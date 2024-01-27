@@ -1,23 +1,23 @@
 const initialCards = [
   {
     name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/d95875ed48aaaa59479757fe28de4af3/1__16-min.jpg",
+    link: "./images/summer/General/Gesummer (1).jpg",
   },
   {
     name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/d95875ed48aaaa59479757fe28de4af3/3__5-min.jpg",
+    link: "./images/summer/General/Gesummer (2).jpg",
   },
   {
     name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/d95875ed48aaaa59479757fe28de4af3/DSC_0352-min.JPG",
+    link: "./images/summer/General/Gesummer (3).jpg",
   },
   {
     name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/d95875ed48aaaa59479757fe28de4af3/DSC_4523-min.jpg",
+    link: "./images/summer/General/Gesummer (4).jpg",
   },
   {
     name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/d95875ed48aaaa59479757fe28de4af3/Яблоня-min.jpg",
+    link: "./images/summer/General/Gesummer (5).jpg",
   },
 ];
 

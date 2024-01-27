@@ -1,23 +1,23 @@
 const initialCards = [
   {
     name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/9733ff4856433bb56dfe6de6239c2766/gespring%20(1).jpg",
+    link: "./images/spring/General/gespring (1).jpg",
   },
   {
     name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/9733ff4856433bb56dfe6de6239c2766/gespring%20(2).jpg",
+    link: "./images/spring/General/gespring (2).jpg",
   },
   {
     name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/9733ff4856433bb56dfe6de6239c2766/gespring%20(3).jpg",
+    link: "./images/spring/General/gespring (3).jpg",
   },
   {
     name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/9733ff4856433bb56dfe6de6239c2766/gespring%20(4).jpg",
+    link: "./images/spring/General/gespring (4).jpg",
   },
   {
     name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/9733ff4856433bb56dfe6de6239c2766/gespring%20(5).jpg",
+    link: "./images/spring/General/gespring (5).jpg",
   },
 
 ];

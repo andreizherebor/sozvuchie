@@ -1,43 +1,43 @@
 const initialCards = [
   {
     name: "Летний день",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/55a70d3150d3b40bb5d294af98062051/Вишня-min.jpg",
+    link: "./images/summer/Летний день.jpg",
   },
   {
     name: "Домик в деревне",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/55a70d3150d3b40bb5d294af98062051/Гусь-min.jpg",
+    link: "./images/summer/Домик в деревне.jpg",
   },
   {
     name: "Доставка роз",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/55a70d3150d3b40bb5d294af98062051/Доставка%20роз-min.jpg",
+    link: "./images/summer/Доставка роз.jpg",
   },
   {
     name: "Краски лета",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/55a70d3150d3b40bb5d294af98062051/Земляника-min.jpg",
+    link: "./images/summer/Краски лета.jpg",
   },
   {
     name: "По дороге с облаками",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/55a70d3150d3b40bb5d294af98062051/Молочник-min.jpg",
+    link: "./images/summer/По дороге с облаками.jpg",
   },
   {
     name: "Арбузная история",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/55a70d3150d3b40bb5d294af98062051/арбузы-min.jpg",
+    link: "./images/summer/Арбузная история.jpg",
   },
   {
     name: "Золотая рыбка",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/55a70d3150d3b40bb5d294af98062051/гриб-min.jpg",
+    link: "./images/summer/Золотая рыбка.jpg",
   },
   {
     name: "Гусли",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/55a70d3150d3b40bb5d294af98062051/гусли-min.jpg",
+    link: "./images/summer/Гусли.jpg",
   },
   {
     name: "Лимонад",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/55a70d3150d3b40bb5d294af98062051/лимонад-min.jpg",
+    link: "./images/summer/Лимонад.jpg",
   },
   {
     name: "Лодочка",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/55a70d3150d3b40bb5d294af98062051/лодочка-min.jpg",
+    link: "./images/summer/Лодочка.jpg",
   },
 
 ];
