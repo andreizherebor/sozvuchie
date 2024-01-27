@@ -1,19 +1,19 @@
 const initialCards = [
   {
     name: "",
-    link: "../images/winter/Calendar/Calendar (1).jpg",
+    link: "images\winter\Calendar\Calendar (1).jpg",
   },
   {
     name: "",
-    link: "../images/winter/Calendar/Calendar (2).jpg",
+    link: "../../images/winter/Calendar/Calendar (2).jpg",
   },
   {
     name: "",
-    link: "../images/winter/Calendar/Calendar (3).jpg",
+    link: "..\images\winter\Calendar\Calendar (3).JPG",
   },
   {
     name: "",
-    link: "../images/winter/Calendar/Calendar (4).jpg",
+    link: "..\..\images\winter\Calendar\Calendar (3).JPG",
   },
   {
     name: "",
