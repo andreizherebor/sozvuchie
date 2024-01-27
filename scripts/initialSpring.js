@@ -1,7 +1,7 @@
 const initialCards = [
   {
     name: "Авиатор",
-    link: "https://1.downloader.disk.yandex.ru/preview/ae754a80022810c2f4defafb9511190c88246d761c3e24af95ac68b97fc76b2c/inf/gJ9KiimGoYbGCe2IrDWcVGycE3C0fjH29HfwRtDDKVygSgSgsryLElCdDXXAJj1BBccTjprd_uY3WWhDvvyBVA%3D%3D?uid=1020289596&filename=Зима.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1020289596&tknv=v2&size=2560x1300",
+    link: "https://disk.yandex.ru/i/uS8azB--Z_jVFA",
   },
   {
     name: "Автомастерская",

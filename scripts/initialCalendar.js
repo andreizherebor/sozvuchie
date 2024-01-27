@@ -1,42 +1,43 @@
 const initialCards = [
   {
     name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/bb40afce488321c85c5adc6eb3635c3c/1-1-min.jpg",
+    link: "../images/winter/Calendar/Calendar (1).jpg",
   },
   {
     name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/bb40afce488321c85c5adc6eb3635c3c/10-1-min.jpg",
+    link: "../images/winter/Calendar/Calendar (2).jpg",
   },
   {
     name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/bb40afce488321c85c5adc6eb3635c3c/11-min.jpg",
+    link: "../images/winter/Calendar/Calendar (3).jpg",
   },
   {
     name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/bb40afce488321c85c5adc6eb3635c3c/12-min.jpg",
+    link: "../images/winter/Calendar/Calendar (4).jpg",
   },
   {
     name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/bb40afce488321c85c5adc6eb3635c3c/2-2-min.JPG",
+    link: "../images/winter/Calendar/Calendar (5).jpg",
   },
   {
     name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/bb40afce488321c85c5adc6eb3635c3c/3-2-min.jpg",
+    link: "../images/winter/Calendar/Calendar (6).jpg",
   },
   {
     name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/bb40afce488321c85c5adc6eb3635c3c/4-1-min.jpg",
+    link: "../images/winter/Calendar/Calendar (7).jpg",
   },
   {
     name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/bb40afce488321c85c5adc6eb3635c3c/5-1-min.jpg",
+    link: "../images/winter/Calendar/Calendar (8).jpg",
   },
   {
     name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/bb40afce488321c85c5adc6eb3635c3c/6-1-min.jpg",
+    link: "../images/winter/Calendar/Calendar (9).jpg",
   },
   {
     name: "",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/bb40afce488321c85c5adc6eb3635c3c/8-2-min.jpg",
+    link: "../images/winter/Calendar/Calendar (10).jpg",
   },
+
 ];

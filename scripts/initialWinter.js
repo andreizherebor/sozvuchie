@@ -53,7 +53,7 @@ const initialCards = [
   },
   {
     name: "Зимний вальс",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/724b2e65d99ccb618d47629dc308318a/Ангелы-min.jpg",
+    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/680e0105e592a9c878d7bac0ecf06277/Ангелы-min.jpg",
   },
 ];
 
