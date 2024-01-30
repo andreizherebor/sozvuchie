@@ -1,59 +1,59 @@
 const initialCards = [
   {
     name: "Карусель",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/724b2e65d99ccb618d47629dc308318a/Хаски-min.jpg",
+    link: "./images/winter/Карусель.jpg",
   },
   {
     name: "На вершине",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/724b2e65d99ccb618d47629dc308318a/Спорт-min.jpg",
+    link: "./images/winter/На вершине.jpg",
   },
   {
     name: "Зимнее счастье",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/724b2e65d99ccb618d47629dc308318a/Северное%20сияние-min.jpg",
+    link: "./images/winter/Зимнее счастье.jpg",
   },
   {
     name: "Новогодний ужин",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/724b2e65d99ccb618d47629dc308318a/Пингвин-min.jpg",
+    link: "./images/winter/Новогодний ужин.jpg",
   },
   {
     name: "С пушистым медведем",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/724b2e65d99ccb618d47629dc308318a/Олень-min.jpg",
+    link: "./images/winter/С пушистым медведем.jpg",
   },
   {
     name: "Снежные облака",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/724b2e65d99ccb618d47629dc308318a/Облака-min.jpg",
+    link: "./images/winter/Снежные облака.jpg",
   },
   {
     name: "Морозко",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/724b2e65d99ccb618d47629dc308318a/Морозко-min.jpg",
+    link: "./images/winter/Морозко.jpg",
   },
   {
     name: "12 месяцев",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/724b2e65d99ccb618d47629dc308318a/Луна-min.jpg",
+    link: "./images/winter/12 месяцев.jpg",
   },
   {
     name: "Лебединое озеро",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/724b2e65d99ccb618d47629dc308318a/Лебеди-min.jpg",
+    link: "./images/winter/Лебединое озеро.jpg",
   },
   {
     name: "У камина",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/724b2e65d99ccb618d47629dc308318a/Кормушка-min.jpg",
+    link: "./images/winter/У камина.jpg",
   },
   {
     name: "Гости на пороге",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/724b2e65d99ccb618d47629dc308318a/Емеля-min.jpg",
+    link: "./images/winter/Гости на пороге.jpg",
   },
   {
     name: "В ожидании рождества",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/724b2e65d99ccb618d47629dc308318a/Деревце_30х40-min.jpg",
+    link: "./images/winter/В ожидании рождества.jpg",
   },
   {
     name: "Зимний вечер",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/724b2e65d99ccb618d47629dc308318a/Гномы%20(2)-min.jpg",
+    link: "./images/winter/Зимний вечер.jpg",
   },
   {
     name: "Зимний вальс",
-    link: "https://sprutio.beget.com/image_cache/stone.beget:9443/demaas2q/680e0105e592a9c878d7bac0ecf06277/Ангелы-min.jpg",
+    link: "./images/winter/Зимний вальс.jpg",
   },
 ];
 
