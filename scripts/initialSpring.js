@@ -1,76 +1,37 @@
 const initialCards = [
   {
-    name: "Авиатор",
-    link: "./images/spring/Авиатор.jpg",
+    name: "Весенние счастье",
+    link: "./images/spring/Весенние счастье.jpg",
   },
   {
-    name: "Автомастерская",
-    link: "./images/spring/Автомастерская.jpg",
-  },
-  {
-    name: "В стране чудес",
-    link: "./images/spring/В стране чудес.jpg",
-  },
-  {
-    name: "Сиреневые истории",
-    link: "./images/spring/Сиреневые истории.jpg",
-  },
-  {
-    name: "Гитарист",
-    link: "./images/spring/Гитарист.jpg",
-  },
-  {
-    name: "От винта",
-    link: "./images/spring/От винта.jpg",
-  },
-  {
-    name: "Дорожка фронтовая",
-    link: "./images/spring/Дорожка фронтовая.jpg",
-  },
-  {
-    name: "Паровоз героев",
-    link: "./images/spring/Паровоз героев.jpg",
-  },
-  {
-    name: "План победы",
-    link: "./images/spring/План победы.jpg",
-  },
-  {
-    name: "Весенний блюз",
-    link: "./images/spring/Весенний блюз.jpg",
-  },
-  {
-    name: "Поехали!",
-    link: "./images/spring/Поехали !.jpg",
-  },
-  {
-    name: "Русское чаепитие",
-    link: "./images/spring/Русское чаепитие.jpg",
-  },
-  {
-    name: "Париж",
-    link: "./images/spring/Париж.jpg",
-  },
-  {
-    name: "Ретро",
-    link: "./images/spring/Ретро.jpg",
-  },
-  {
-    name: "Прогулка под дождем",
-    link: "./images/spring/Прогулка под дождем.jpg",
-  },
-  {
-    name: "Весенняя Италия",
-    link: "./images/spring/Весенняя Италия.jpg",
-  },
-  {
-    name: "Шахматные короли",
-    link: "./images/spring/Шахматные короли.jpg",
+    name: "Волшебное путишествие",
+    link: "./images/spring/Волшебное путишествие.jpg",
   },
   {
     name: "Выше облаков",
     link: "./images/spring/Выше облаков.jpg",
   },
+  {
+    name: "Космос-min",
+    link: "./images/spring/Космос-min.jpg",
+  },
+  {
+    name: "Мечты о небе",
+    link: "./images/spring/Мечты о небе.jpg",
+  },
+  {
+    name: "Встречаем масленицу",
+    link: "./images/spring/Встречаем масленицу.jpg",
+  },
+  {
+    name: "Радист",
+    link: "./images/spring/Радист.jpg",
+  },
+  {
+    name: "Сказки Пушкина",
+    link: "./images/spring/Сказки Пушкина.jpg",
+  },
+
 ];
 
 

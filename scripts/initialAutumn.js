@@ -1,44 +1,57 @@
 const initialCards = [
   {
-    name: "Дачники",
-    link: "./images/autumn/Дачники.jpg",
+    name: "Букет осени",
+    link: "./images/autumn/Букет осени.jpg",
   },
   {
-    name: "Золотая рыбка",
-    link: "./images/autumn/Золотая рыбка.jpg",
+    name: "В гостях у сказки",
+    link: "./images/autumn/В гостях у сказки.jpg",
   },
   {
-    name: "Золотой граммофон",
-    link: "./images/autumn/Золотой граммофон.jpg",
+    name: "Забытое ремисло",
+    link: "./images/autumn/Забытое ремисло.jpg",
   },
   {
     name: "Листопад",
     link: "./images/autumn/Листопад.jpg",
   },
   {
-    name: "На перроне",
-    link: "./images/autumn/На перроне.jpg",
+    name: "Мастерская Осени",
+    link: "./images/autumn/Мастерская Осени.jpg",
   },
   {
-    name: "На перроне",
-    link: "./images/autumn/На перроне.jpg",
+    name: "На  пероне",
+    link: "./images/autumn/На  пероне.jpg",
   },
   {
-    name: "Осенний полёт",
-    link: "./images/autumn/Осенний полёт.jpg",
+    name: "Осенний парк",
+    link: "./images/autumn/Осенний парк.jpg",
   },
   {
-    name: "Ретро-фотограф",
-    link: "./images/autumn/Ретро-фотограф.jpg",
+    name: "Осенний портрет",
+    link: "./images/autumn/Осенний портрет.jpg",
   },
   {
-    name: "Романтика",
-    link: "./images/autumn/Романтика.jpg",
+    name: "Стиляги",
+    link: "./images/autumn/Стиляги.jpg",
   },
   {
     name: "Экранизация осени",
     link: "./images/autumn/Экранизация осени.jpg",
   },
+  {
+    name: "Все в шоколаде",
+    link: "./images/autumn/Все в шоколаде.jpg",
+  },
+  {
+    name: "Гимзанисты",
+    link: "./images/autumn/Гимзанисты.jpg",
+  },
+  {
+    name: "Сеновал",
+    link: "./images/autumn/Сеновал.jpg",
+  },
+
 ];
 
 

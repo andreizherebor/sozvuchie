@@ -1,60 +1,53 @@
 const initialCards = [
   {
-    name: "Карусель",
-    link: "./images/winter/Карусель.jpg",
+    name: "В ожидании рождества",
+    link: "./images/winter/В ожидании рождества.jpg",
   },
   {
-    name: "На вершине",
-    link: "./images/winter/На вершине.jpg",
+    name: "Волшебный лес",
+    link: "./images/winter/Волшебный лес.jpg",
   },
   {
-    name: "Зимнее счастье",
-    link: "./images/winter/Зимнее счастье.jpg",
+    name: "Звездный сон",
+    link: "./images/winter/Звездный сон.jpg",
   },
   {
-    name: "Новогодний ужин",
-    link: "./images/winter/Новогодний ужин.jpg",
+    name: "Зима за окном",
+    link: "./images/winter/Зима за окном.jpg",
   },
   {
-    name: "С пушистым медведем",
-    link: "./images/winter/С пушистым медведем.jpg",
-  },
-  {
-    name: "Снежные облака",
-    link: "./images/winter/Снежные облака.jpg",
-  },
-  {
-    name: "Морозко",
-    link: "./images/winter/Морозко.jpg",
-  },
-  {
-    name: "12 месяцев",
-    link: "./images/winter/12 месяцев.jpg",
+    name: "Золотой олень",
+    link: "./images/winter/Золотой олень.jpg",
   },
   {
     name: "Лебединое озеро",
     link: "./images/winter/Лебединое озеро.jpg",
   },
   {
-    name: "У камина",
-    link: "./images/winter/У камина.jpg",
+    name: "Мандариновое счастье",
+    link: "./images/winter/Мандариновое счастье.jpg",
   },
   {
-    name: "Гости на пороге",
-    link: "./images/winter/Гости на пороге.jpg",
+    name: "Мелодия праздника",
+    link: "./images/winter/Мелодия праздника.jpg",
   },
   {
-    name: "В ожидании рождества",
-    link: "./images/winter/В ожидании рождества.jpg",
+    name: "Морозко",
+    link: "./images/winter/Морозко.jpg",
   },
   {
-    name: "Зимний вечер",
-    link: "./images/winter/Зимний вечер.jpg",
+    name: "Новогодний ужин",
+    link: "./images/winter/Новогодний ужин.jpg",
   },
   {
-    name: "Зимний вальс",
-    link: "./images/winter/Зимний вальс.jpg",
+    name: "По-щучьему велению",
+    link: "./images/winter/По-щучьему велению.jpg",
   },
+  {
+    name: "Снежная луна",
+    link: "./images/winter/Снежная луна.jpg",
+  },
+
 ];
 
 
