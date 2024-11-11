@@ -1,77 +1,165 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Детская выездная фотостудия «Созвучие»</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="icon" href="./images/favicon.ico" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Детская выездная фотостудия «Созвучие»</title>
-  <link rel="stylesheet" href="./pages/index.css">
-  <link rel="icon" href="./images/favicon.ico">
-</head>
-
-<body>
-  <div class="page">
-    <header class="header">
-      <div class="header__content">
-      <div class="header__links">
-        <a href="./index.html"><img class="header__logo" src="./images/header/header-logo.svg" alt="Логотип Созвучие'"></a>
-        <a class="header__lang-tel" type="tel" href="tel:88003021985">+7 800 302 19 85</a>
-      </div>
-      <nav class="header__links">
-        <a href="./kinder-garden.html" class="header__lang-link" target="_self">Детские сады</a>
-        <a href="./school.html" class="header__lang-link" target="_self">Школы</a>
-        <a href="./about-us.html" class="header__lang-link" target="_self">О нас</a>
-        <a href="./contacts.html" class="header__lang-link" target="_self">Контакты</a>
-      </nav>
-    </div>
-    </header>
-    <main class="conten">
-      <section class="lead">
-        <div class="content-main">
-          <div class="content-main__item">
-            <h1 class="content-main__title">Детские сады</h1>
-
-              <p class="content-main__subtitle">Детство - счастливая пора, которая больше не повторится. Важно успеть
-                запечатлеть его на снимках. Мы поможем сделать это в наших удивительных сюжетах.</p>
-                <a href="./kinder-garden.html" style="text-decoration: none;"><button class="content-main__btn">Подробнее</button></a>
-
+  <body>
+    <div class="page">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar__wrap">
+            <div class="hamb">
+              <div class="hamb__field" id="hamb">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            </div>
+            <div class="header__links">
+              <a href="./index.html"
+                ><img
+                  class="header__logo"
+                  src="./images/header/header-logo.svg"
+                  alt="Логотип Созвучие'"
+              /></a>
+              <a class="header__lang-tel" type="tel" href="tel:88003021985"
+                >+7 800 302 19 85</a
+              >
+            </div>
+            <ul class="menu" id="menu">
+              <li><a href="./index.html">Главная</a></li>
+              <li>
+                <a
+                  href="./kinder-garden.html"
+                  class="header__lang-link"
+                  target="_self"
+                  >Детские сады</a
+                >
+              </li>
+              <li>
+                <a href="./school.html" class="header__lang-link" target="_self"
+                  >Школы</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./about-us.html"
+                  class="header__lang-link"
+                  target="_self"
+                  >О нас</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./contacts.html"
+                  class="header__lang-link"
+                  target="_self"
+                  >Контакты</a
+                >
+              </li>
+            </ul>
           </div>
-          <img class="content-main__image" src="./images/home_page/kindergarten.png" alt="">
         </div>
-      </section>
-
-      <section class="intro">
-        <div class="content-main">
-          <div class="content-main__item">
-            <h1 class="content-main__title">Школы</h1>
-
-            <p class="content-main__subtitle">Авторские сюжеты, фоны, которые мы снимаем в разных уголках мира,
-              атмосфера волшебства и истории. У нас для вас интересное предложение. Мы приедем к вам в школу!</p>
-            <a href="./school.html" style="text-decoration: none;"><button class="content-main__btn">Подробнее</button></a>
-
-          </div>
-
-        <img class="content-main__image" src="./images/home_page/school.png" alt="">
-  </div>
-
-  </section>
-
-  </main>
-  <footer class="footer">
-    <div class="footer__content">
-      <nav class="footer__links">
-        <a href="https://viber.click/79232708708" class="footer__link" target="_blank"><img
-            src="./images/footer/viber.svg" alt="Логотип Viber" class="footer__social-icon"></a>
-        <a href="https://t.me/sozvuchie_foto" class="footer__link" target="_blank"> <img
-            src="./images/footer/telegram.svg" alt="логотип Telegram" class="footer__social-icon"></a>
-        <a href="https://vk.com/sozvuchie_photocentr" class="footer__link" target="_blank"><img
-            src="./images/footer/vk.svg" alt="Логотип ВКонтакте" class="footer__social-icon"></a>
       </nav>
-      <p class="footer__copyright">&copy; 2008-2023 детская выездная фотостудия «Созвучие» </p>
-    </div>
-  </footer>
-  </div>
-</body>
+      <div class="popupm" id="popupm"></div>
 
+      <main class="conten">
+        <section class="lead">
+          <div class="content-main">
+            <div class="content-main__item">
+              <h1 class="content-main__title">Детские сады</h1>
+
+              <p class="content-main__subtitle">
+                Детство - счастливая пора, и мы понимаем, как важно успеть
+                запечатлеть как можно больше ярких моментов. Мы создаем наши
+                локации, чтобы ребята могли окунуться в атмосферу волшебства и
+                сказки, побывать в разных уголках мира, представить себя в самых
+                разных ролях. И, конечно-же, наша цель создать не только
+                незабываемые впечатления, но и дать возможность сохранить эти
+                эмоции на снимках на долгие годы!
+              </p>
+              <a href="./kinder-garden.html" style="text-decoration: none"
+                ><button class="content-main__btn">Подробнее</button></a
+              >
+            </div>
+            <img
+              class="content-main__image"
+              src="./images/home_page/kindergarten.png"
+              alt=""
+            />
+          </div>
+        </section>
+
+        <section class="intro">
+          <div class="content-main">
+            <div class="content-main__item">
+              <h1 class="content-main__title">Школы</h1>
+
+              <p class="content-main__subtitle">
+                С поступлением в школу дети все больше напоминают маленьких
+                взрослых - учеба требует от них понемногу становиться серьезнее
+                и старше каждый день. Однако, мы можем помочь немного разбавить
+                школьные будни, тогда школа запомнится не только контрольными и
+                диктантами. А также, не стоит забывать о коллективных
+                фотографиях, ведь важно не только где проходило наше детство, но
+                и с кем!
+              </p>
+              <a href="./school.html" style="text-decoration: none"
+                ><button class="content-main__btn">Подробнее</button></a
+              >
+            </div>
+
+            <img
+              class="content-main__image"
+              src="./images/home_page/school.png"
+              alt=""
+            />
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__content">
+          <nav class="footer__links">
+            <a
+              href="https://viber.click/79232708708"
+              class="footer__link"
+              target="_blank"
+              ><img
+                src="./images/footer/viber.svg"
+                alt="Логотип Viber"
+                class="footer__social-icon"
+            /></a>
+            <a
+              href="https://t.me/sozvuchie_foto"
+              class="footer__link"
+              target="_blank"
+            >
+              <img
+                src="./images/footer/telegram.svg"
+                alt="логотип Telegram"
+                class="footer__social-icon"
+            /></a>
+            <a
+              href="https://vk.com/sozvuchie_photocentr"
+              class="footer__link"
+              target="_blank"
+              ><img
+                src="./images/footer/vk.svg"
+                alt="Логотип ВКонтакте"
+                class="footer__social-icon"
+            /></a>
+          </nav>
+          <p class="footer__copyright">
+            &copy; 2008-2023 детская выездная фотостудия «Созвучие»
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script src="./scripts/menu.js"></script>
+  </body>
 </html>

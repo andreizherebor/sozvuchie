@@ -12,33 +12,40 @@
 
 <body>
   <div class="page">
-    <header class="header">
-      <div class="header__content">
-      <div class="header__links">
-        <a href="./index.html"><img class="header__logo" src="./images/header/header-logo.svg" alt="Логотип Созвучие'"></a>
-        <a class="header__lang-tel" type="tel" href="tel:88003021985">+7 800 302 19 85</a>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar__wrap">
+          <div class="hamb">
+            <div class="hamb__field" id="hamb">
+              <span class="bar"></span> <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+          <div class="header__links">
+            <a href="./index.html"><img class="header__logo" src="./images/header/header-logo.svg" alt="Логотип Созвучие'"></a>
+            <a class="header__lang-tel" type="tel" href="tel:88003021985">+7 800 302 19 85</a>
+          </div>
+          <ul class="menu" id="menu">
+            <li><a href="./index.html">Главная</a></li>
+            <li><a href="./kinder-garden.html" class="header__lang-link" target="_self">Детские сады</a></li>
+            <li><a href="./school.html" class="header__lang-link" target="_self">Школы</a></li>
+            <li><a href="./about-us.html" class="header__lang-link" target="_self">О нас</a></li>
+            <li><a href="./contacts.html" class="header__lang-link" target="_self">Контакты</a></li>
+
+          </ul>
+        </div>
       </div>
-      <nav class="header__links">
-        <a href="./kinder-garden.html" class="header__lang-link" target="_self">Детские сады</a>
-        <a href="./school.html" class="header__lang-link" target="_self">Школы</a>
-        <a href="./about-us.html" class="header__lang-link" target="_self">О нас</a>
-        <a href="./contacts.html" class="header__lang-link" target="_self">Контакты</a>
-      </nav>
-    </div>
-    </header>
+    </nav>
+    <div class="popupm" id="popupm"></div>
     <main class="content">
       <section class="place">
         <div class="place__text">
           <h2 class="place__title">О нас</h2>
-          <p class="place__paragraph">Фотоцентр «Созвучие» — это грамотность оперативность, профессионализм.</p>
-          <p class="place__paragraph">Миссия нашей команды заключается в создании незабываемых фотоснимков без затрат
-            вашего времени. Ежедневно мы
-            радуем тысячи родителей своим профессиональным подходом к любимому делу. Родители, которые уже выбрали нас,
-            остаются с нами навсегда.</p>
-          <p class="place__paragraph">Для максимально качественного и оперативного процесса:</p>
-          <p class="place__paragraph">• на съемочной площадке работает команда из трех человек (фотограф и два
-            ассистента);</p>
-          <p class="place__paragraph">• готовность фотографий после съемочного дня составляет от 2-х до 3-х дней;</p>
+          <p class="place__paragraph">Фотоцентр «Созвучие» — это грамотный подход к работе. оперативность и профессионализм.</p>
+          <p class="place__paragraph">Миссия нашей команды заключается в создании незабываемых фотоснимков без затрат вашего времени. Ежедневно мы радуем тысячи родителей своим профессиональным подходом к любимому делу. Уверены, что сможем приятно удивить и вас!.</p>
+          <p class="place__paragraph">Мы всегда заботимся о том, чтобы процесс съемки проходил максимально качественно и оперативно: </p>
+          <p class="place__paragraph">• на съемочной площадке работает команда из трех человек (фотограф и два ассистента);</p>
+          <p class="place__paragraph">• готовность фотографий после съемочного дня составляет от одной недели до 10 дней;</p>
           <p class="place__paragraph">• у наших сотрудников имеется полный пакет документов для работы с детьми.</p>
         </div>
         <img class="place__image" src="./images/place/img.jpg" alt="Куршская коса (фото)">
@@ -48,19 +55,19 @@
         <ul class="choice__cards">
           <li class="choice__item">
             <img src="./images/choice/camera.png" alt="Книга в руках" class="choice__image">
-            <p class="choice__description">Качество студийной фотосъемки.<br>
-              Доступная цена.
+            <p class="choice__description">Доступная цена.<br>
+
             </p>
 
           </li>
           <li class="choice__item">
             <img src="./images/choice/color-lens.png" alt="Книга в руках" class="choice__image">
-            <p class="choice__description">Настоящие декорации создаются мастером по индивидуальным проектам.</p>
+            <p class="choice__description">Настоящие декорации и костюмы создаются мастером по индивидуальным проектам.</p>
           </li>
           <li class="choice__item">
             <img src="./images/choice/time.png" alt="Книга в руках" class="choice__image">
             <p class="choice__description">Качественная обработка фотографий.<br>
-              Готовность от 2-х до 3-х дней.
+
             </p>
 
           </li>
@@ -81,6 +88,7 @@
       </div>
     </footer>
   </div>
+  <script src="./scripts/menu.js"></script>
 </body>
 
 </html>

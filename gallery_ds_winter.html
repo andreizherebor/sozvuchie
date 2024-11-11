@@ -12,20 +12,31 @@
 
 <body>
   <div class="page">
-    <header class="header">
-      <div class="header__content">
-      <div class="header__links">
-        <a href="./index.html"><img class="header__logo" src="./images/header/header-logo.svg" alt="Логотип Созвучие'"></a>
-        <a class="header__lang-tel" type="tel" href="tel:88003021985">+7 800 302 19 85</a>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar__wrap">
+          <div class="hamb">
+            <div class="hamb__field" id="hamb">
+              <span class="bar"></span> <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+          <div class="header__links">
+            <a href="./index.html"><img class="header__logo" src="./images/header/header-logo.svg" alt="Логотип Созвучие'"></a>
+            <a class="header__lang-tel" type="tel" href="tel:88003021985">+7 800 302 19 85</a>
+          </div>
+          <ul class="menu" id="menu">
+            <li><a href="./index.html">Главная</a></li>
+            <li><a href="./kinder-garden.html" class="header__lang-link" target="_self">Детские сады</a></li>
+            <li><a href="./school.html" class="header__lang-link" target="_self">Школы</a></li>
+            <li><a href="./about-us.html" class="header__lang-link" target="_self">О нас</a></li>
+            <li><a href="./contacts.html" class="header__lang-link" target="_self">Контакты</a></li>
+
+          </ul>
+        </div>
       </div>
-      <nav class="header__links">
-        <a href="./kinder-garden.html" class="header__lang-link" target="_self">Детские сады</a>
-        <a href="./school.html" class="header__lang-link" target="_self">Школы</a>
-        <a href="./about-us.html" class="header__lang-link" target="_self">О нас</a>
-        <a href="./contacts.html" class="header__lang-link" target="_self">Контакты</a>
-      </nav>
-    </div>
-    </header>
+    </nav>
+    <div class="popupm" id="popupm"></div>
     <main class="content">
       <div class="nav">
         <nav class="nav__links">
@@ -42,9 +53,6 @@
           </a>
           <a class="gallery__background gallery__background_footage_foto " href="./themes_ds_winter.html" target="_self">
             <h3 class="gallery__caption">Сюжеты</h3>
-          </a>
-          <a class="gallery__background gallery__background_footage_com  " href="./general_ds_winter.html" target="_self">
-            <h3 class="gallery__caption">Общая</h3>
           </a>
         </div>
       </section>
@@ -63,6 +71,7 @@
       </div>
     </footer>
   </div>
+  <script src="./scripts/menu.js"></script>
 </body>
 
 </html>

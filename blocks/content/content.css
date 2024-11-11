@@ -1,7 +1,15 @@
 .content {
-  width: 1290px;
+
   background-color: #ffffff;
   overflow: hidden;
-  min-height: 85vh;
+padding-left: 15px;
+padding-right: 15px;
   margin: 0 auto;
+  max-width: 1240px;
+
+}
+@media screen and (max-width: 680px) {
+  .content  {
+    margin: 0 15px;
+  }
 }

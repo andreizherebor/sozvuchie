@@ -1,9 +1,0 @@
-.place__paragraph_price {
-  font-weight: 700;
-font-size: 32px;
-line-height: 40px;
-letter-spacing: 0.02em;
-}
-.place__paragraph_price:last-child {
-  margin: 50px 0 0;
-}

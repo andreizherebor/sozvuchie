@@ -1,11 +1,15 @@
 .elements {
-  width: calc((100vw - 320px) / (1280 - 320) * (880 - 320) + 320px);
-  margin: calc((100vw - 320px) / (1280 - 320) * (51 - 36) + 36px) auto calc((100vw - 320px) / (1280 - 320) * (66 - 48) + 48px);
+  margin: calc((100vw - 320px) / (1280 - 320) * (51 - 36) + 36px) auto
+    calc((100vw - 320px) / (1280 - 320) * (66 - 48) + 48px);
 }
 
-@media screen and (min-width: 1280px) {
-  .elements {
-    width: 1280px;
-    margin: 50px auto;
-  }
+.elements__cards {
+  max-width: 1280px;
+  display: grid;
+  margin: auto;
+  padding: 0;
+  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+  gap: 20px 17px;
+  justify-content: center;
+  margin: 0 auto;
 }

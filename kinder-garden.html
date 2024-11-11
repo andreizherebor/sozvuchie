@@ -1,66 +1,169 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Детская выездная фотостудия «Созвучие»</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="icon" href="./images/favicon.ico" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Детская выездная фотостудия «Созвучие»</title>
-  <link rel="stylesheet" href="./pages/index.css">
-  <link rel="icon" href="./images/favicon.ico">
-</head>
-
-<body>
-  <div class="page">
-    <header class="header">
-      <div class="header__content">
-      <div class="header__links">
-        <a href="./index.html"><img class="header__logo" src="./images/header/header-logo.svg" alt="Логотип Созвучие'"></a>
-        <a class="header__lang-tel" type="tel" href="tel:88003021985">+7 800 302 19 85</a>
-      </div>
-      <nav class="header__links">
-        <a href="./kinder-garden.html" class="header__lang-link" target="_self">Детские сады</a>
-        <a href="./school.html" class="header__lang-link" target="_self">Школы</a>
-        <a href="./about-us.html" class="header__lang-link" target="_self">О нас</a>
-        <a href="./contacts.html" class="header__lang-link" target="_self">Контакты</a>
-      </nav>
-    </div>
-    </header>
-    <main class="content">
-      <section class="themes">
-        <h2 class="themes__title">Детский сад</h2>
-        <div class="themes__cards">
-          <p class="themes__description">При расчете стоимости фотосессии мы учитываем пожелания каждого клиента. Для уточнения и бронирования даты вы можете позвонить по телефону +7 800 302 19 85</p>
-          <p class="themes__description">Поможем с поиском места и арендой помещения для проведения фотосессии. Данные хлопоты мы берём на себя.</p>
-          <a class="themes__background themes__background_season-o" href="./themes_ds_autumn.html" target="_self">
-            <h3 class="themes__caption">Осень</h3>
-          </a>
-          <a class="themes__background themes__background_season-z" href="./gallery_ds_winter.html" target="_self">
-            <h3 class="themes__caption">Зима</h3>
-          </a>
-          <a class="themes__background themes__background_season-v" href="./themes_ds_spring.html" target="_self">
-            <h3 class="themes__caption">Весна</h3>
-          </a>
-          <a class="themes__background themes__background_season-l" href="./themes_ds_summer.html" target="_self">
-            <h3 class="themes__caption">Лето</h3>
-          </a>
+  <body>
+    <div class="page">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar__wrap">
+            <div class="hamb">
+              <div class="hamb__field" id="hamb">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            </div>
+            <div class="header__links">
+              <a href="./index.html"
+                ><img
+                  class="header__logo"
+                  src="./images/header/header-logo.svg"
+                  alt="Логотип Созвучие'"
+              /></a>
+              <a class="header__lang-tel" type="tel" href="tel:88003021985"
+                >+7 800 302 19 85</a
+              >
+            </div>
+            <ul class="menu" id="menu">
+              <li><a href="./index.html">Главная</a></li>
+              <li>
+                <a
+                  href="./kinder-garden.html"
+                  class="header__lang-link"
+                  target="_self"
+                  >Детские сады</a
+                >
+              </li>
+              <li>
+                <a href="./school.html" class="header__lang-link" target="_self"
+                  >Школы</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./about-us.html"
+                  class="header__lang-link"
+                  target="_self"
+                  >О нас</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./contacts.html"
+                  class="header__lang-link"
+                  target="_self"
+                  >Контакты</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="footer__content">
-        <nav class="footer__links">
-          <a href="https://viber.click/79232708708" class="footer__link" target="_blank"><img
-              src="./images/footer/viber.svg" alt="Логотип Viber" class="footer__social-icon"></a>
-          <a href="https://t.me/sozvuchie_foto" class="footer__link" target="_blank"> <img
-              src="./images/footer/telegram.svg" alt="логотип Telegram" class="footer__social-icon"></a>
-          <a href="https://vk.com/sozvuchie_photocentr" class="footer__link" target="_blank"><img
-              src="./images/footer/vk.svg" alt="Логотип ВКонтакте" class="footer__social-icon"></a>
-        </nav>
-        <p class="footer__copyright">&copy; 2008-2023 детская выездная фотостудия «Созвучие» </p>
-      </div>
-    </footer>
-  </div>
-</body>
+      </nav>
+      <div class="popupm" id="popupm"></div>
+      <main class="content">
+        <section class="themes">
+          <h2 class="themes__title">Детский сад</h2>
+          <div class="themes__description">
+            <p>
+              Предлагаем вам ознакомиться с нашими разнообразными сюжетами,
+              среди них вы наверняка найдете подходящие вам образы!
+            </p>
+            <p>
+              - Съемка проходит с использованием настоящего реквизита и
+              красочного фона
+            </p>
+            <p>
+              - Для съемки большинства наших тематик предусмотрены костюмы, вам
+              остается позаботиться только о прическах для девочек
+            </p>
+            <p>
+              - Комплектация фотографий меняется в зависимости от сезона, более
+              подробно вы можете ознакомиться в соответствующем разделе ниже
+            </p>
 
+            <p>
+              Если вы хотите провести съемку наших локаций в своем детском саду
+              или просто задать интересующий вас вопрос касаемо проведения
+              съемки, позвоните, пожалуйста, по телефону <a type="tel" href="tel:88003021985">+7 800 302 19 85</a>
+            </p>
+          </div>
+          <div class="themes__cards">
+            <a
+              class="themes__background themes__background_season-o"
+              href="./themes_ds_autumn.html"
+              target="_self"
+            >
+              <h3 class="themes__caption">Осень</h3>
+            </a>
+            <a
+              class="themes__background themes__background_season-z"
+              href="./gallery_ds_winter.html"
+              target="_self"
+            >
+              <h3 class="themes__caption">Зима</h3>
+            </a>
+            <a
+              class="themes__background themes__background_season-v"
+              href="./themes_ds_spring.html"
+              target="_self"
+            >
+              <h3 class="themes__caption">Весна</h3>
+            </a>
+            <a
+              class="themes__background themes__background_season-l"
+              href="./themes_ds_summer.html"
+              target="_self"
+            >
+              <h3 class="themes__caption">Лето</h3>
+            </a>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__content">
+          <nav class="footer__links">
+            <a
+              href="https://viber.click/79232708708"
+              class="footer__link"
+              target="_blank"
+              ><img
+                src="./images/footer/viber.svg"
+                alt="Логотип Viber"
+                class="footer__social-icon"
+            /></a>
+            <a
+              href="https://t.me/sozvuchie_foto"
+              class="footer__link"
+              target="_blank"
+            >
+              <img
+                src="./images/footer/telegram.svg"
+                alt="логотип Telegram"
+                class="footer__social-icon"
+            /></a>
+            <a
+              href="https://vk.com/sozvuchie_photocentr"
+              class="footer__link"
+              target="_blank"
+              ><img
+                src="./images/footer/vk.svg"
+                alt="Логотип ВКонтакте"
+                class="footer__social-icon"
+            /></a>
+          </nav>
+          <p class="footer__copyright">
+            &copy; 2008-2023 детская выездная фотостудия «Созвучие»
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script src="./scripts/menu.js"></script>
+  </body>
 </html>

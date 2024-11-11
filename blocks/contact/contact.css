@@ -1,5 +1,78 @@
 .contact {
   display: flex;
-  justify-content: space-between;
-  margin: 80px 0 auto;
+  justify-content: center;
+  margin: 80px 15px;
+  height: 71vh;
 }
+
+.contact__title {
+  font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+letter-spacing: 0.03em;
+margin: 0;
+}
+.contact__text {
+  font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+display: flex;
+align-items:center;
+text-decoration: none;
+margin-bottom: 37px;
+color: #000;
+}
+
+.contact__text:last-child {
+  margin-bottom: 0;
+}
+.contact__text:first-child {
+  margin: 0;
+}
+.contact__text:nth-child(2) {
+margin: 0;
+}
+.contact__text:hover {
+  opacity: .8;
+}
+.contact__tel {
+  font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+margin:60px 0;
+text-decoration: none;
+letter-spacing: 0.02em;
+color: #000;
+}
+.contact__tel:hover {
+  opacity: .7;
+}
+.contact__subtitle {
+  font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+letter-spacing: 0.02em;
+margin: 60px 0;
+}
+.contact__nav {
+  display: flex;
+  flex-direction: column;
+}
+.contact__map {
+  width: 740px;
+height: 740px;
+border-radius: 10px;
+}
+.contact__content {
+  max-width: 410px;
+}
+.contact__icon {
+  width: 32px;
+height: 32px;
+padding-right:10px ;
+}
+  @media screen and (max-width: 700px) {
+    .contact__map {
+      display: none;
+    }
+  }

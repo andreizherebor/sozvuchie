@@ -1,7 +1,0 @@
-.themes__cards {
-  max-width: 1290px;
-  display: grid;
-  grid-template-columns: minmax(min-content, 630px) minmax(min-content, 630px);
-  gap: 40px 30px;
-  margin: 60px auto 0;
-}

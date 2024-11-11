@@ -10,4 +10,57 @@
     cursor: pointer;
 }
 
+.element__trash-button {
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  width: 18px;
+  height: 20px;
+  outline: none;
+  border: none;
+  background: transparent url(../../../images/elements/trash-button.svg) center center / cover no-repeat;
+  filter: drop-shadow(0 0 1px rgba(0, 0, 0, .25));
+  transition: all 0.2s linear;
+}
 
+.element__trash-button:hover {
+  opacity: .6;
+  cursor: pointer;
+}
+.element__title {
+  width: 100%;
+  margin-left: 40px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  position: absolute;
+  top: 75%;
+  color: #ffffff;
+}
+.element__image {
+  width: 610px;
+  height: 420px;
+  object-fit: cover;
+  filter: brightness(85%)
+
+}
+.element__caption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 20px 25px 21px;
+  background: #fff;
+  z-index: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .element__title{
+    top: 65%;
+    font-size: 30px;
+  }
+  .element__image  {
+    width: 420px;
+    height: 284px;
+
+  }
+}

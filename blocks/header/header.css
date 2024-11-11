@@ -1,7 +1,26 @@
-.header {
-  max-width: 100%;
-
-  background-color: #FCF4F8;
+.header__links {
+  display: flex;
+  gap: 2.5rem;
+  align-items: end;
+  list-style: none;
+}
+.header__lang-tel {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 1.7212rem 0;
+}
+.header__logo {
+  width: 139px;
+  height: 50px;
+  padding: 0.94rem 0;
+  margin-left: 75px;
 }
 
-
+@media (max-width: 600px) {
+  .header__lang-tel {
+    display: none;
+  }
+}
